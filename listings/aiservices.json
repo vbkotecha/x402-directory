@@ -1,0 +1,57 @@
+{
+  "name": "AIServices",
+  "url": "https://api.aiservices.to",
+  "description": "Paid API platform for autonomous AI agents: market data, DeFi intelligence, search, URL metadata, whale flows, GitHub velocity, macro context, and policy-driven dispute resolution over x402.",
+  "category": "data",
+  "protocols": [
+    "x402",
+    "MCP"
+  ],
+  "networks": [
+    "Base mainnet",
+    "BNB Smart Chain ready"
+  ],
+  "payment": {
+    "protocol": "x402",
+    "currency": "USDC",
+    "network": "Base mainnet",
+    "paid_endpoints": [
+      {
+        "path": "/v1/indicators",
+        "price": "$0.02"
+      },
+      {
+        "path": "/v1/defi/yields",
+        "price": "$0.02"
+      },
+      {
+        "path": "/v1/metadata",
+        "price": "$0.01"
+      },
+      {
+        "path": "/v1/search",
+        "price": "$0.01"
+      },
+      {
+        "path": "/v1/disputes",
+        "price": "$0.05"
+      }
+    ]
+  },
+  "mcp": {
+    "remote_endpoint": "https://api.aiservices.to/mcp",
+    "registry_name": "to.aiservices/aiservices"
+  },
+  "openapi": "https://api.aiservices.to/openapi.json",
+  "health": "https://api.aiservices.to/health",
+  "status": "live",
+  "tags": [
+    "ai-agents",
+    "agent-commerce",
+    "x402",
+    "mcp",
+    "crypto-data",
+    "defi",
+    "dispute-resolution"
+  ]
+}
