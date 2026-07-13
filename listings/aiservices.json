@@ -1,6 +1,6 @@
 {
-  "name": "AIServices",
-  "url": "https://api.aiservices.to",
+  "name": "AgentServices",
+  "url": "https://agentservices.to",
   "description": "Paid API platform for autonomous AI agents: market data, DeFi intelligence, search, URL metadata, whale flows, GitHub velocity, macro context, and policy-driven dispute resolution over x402.",
   "category": "data",
   "protocols": [
@@ -39,11 +39,11 @@
     ]
   },
   "mcp": {
-    "remote_endpoint": "https://api.aiservices.to/mcp",
+    "remote_endpoint": "https://agentservices.to/mcp",
     "registry_name": "to.aiservices/aiservices"
   },
-  "openapi": "https://api.aiservices.to/openapi.json",
-  "health": "https://api.aiservices.to/health",
+  "openapi": "https://agentservices.to/openapi.json",
+  "health": "https://agentservices.to/health",
   "status": "live",
   "tags": [
     "ai-agents",
